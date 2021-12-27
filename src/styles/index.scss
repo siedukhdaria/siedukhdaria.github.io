@@ -2,6 +2,7 @@
   font-family: 'Inter';
   src: url('../fonts/Inter.ttf');
 }
+@import 'reset';
+@import 'base';
+@import 'header';
 
-@import 'variables';
-@import 'scaffolding';
