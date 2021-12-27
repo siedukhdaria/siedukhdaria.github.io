@@ -7,6 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   // Where webpack looks to start building the bundle
   entry: [paths.src + '/index.js'],
+  target: process.env.NODE_ENV === "development" ? "web" : "browserslist",
 
   // Where webpack outputs the assets and bundles
   output: {
