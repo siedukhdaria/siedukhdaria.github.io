@@ -3,7 +3,7 @@ const paths = require('./paths')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+console.log('paths.public',paths.public)
 module.exports = {
   // Where webpack looks to start building the bundle
   entry: [paths.src + '/index.js'],
@@ -25,7 +25,7 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: paths.public,
+          from: paths.src,
           to: 'assets',
           globOptions: {
             ignore: ['*.DS_Store'],
