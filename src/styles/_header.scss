@@ -1,16 +1,29 @@
 header{
-  &:after {
+  &:after{
     content: "";
     width: 100%;
-    height: calc(100% + 100px);
-    background-image: url("../assets/images/header/hero-gradient.png");
-    background-repeat: no-repeat;
+    height: calc(100% + 150px);
+    //background-image: url("../assets/images/header/hero-gradient.png");
+    background: linear-gradient(135deg, rgba(92,142,218,1) 0%, rgba(183,135,215,1) 30%, rgba(96,184,222,1) 48%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
+    //background-repeat: no-repeat;
     top: 0;
     left: 0;
     position: absolute;
     display: inline-block;
     z-index: 0;
   }
+  //&:before{
+  //  content: "";
+  //  width: 100%;
+  //  height: 100%;
+  //  background-image: url("../assets/images/header/header-img.png");
+  //  background-repeat: no-repeat;
+  //  top: 0;
+  //  left: 0;
+  //  position: absolute;
+  //  display: inline-block;
+  //  z-index: 1;
+  //}
 }
 .header-container{
   position: relative;
