@@ -1,11 +1,12 @@
+.header-hero {
+  background: linear-gradient(165deg, rgba(92,142,218,1) 0%, rgba(184,127,222,1) 14%, rgba(161,143,228,1) 22%, rgba(96,184,222,1) 31%, rgba(160,227,255,1) 42%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+}
+
 header{
   &:after{
     content: "";
     width: 100%;
     height: calc(100% + 150px);
-    //background-image: url("../assets/images/header/hero-gradient.png");
-    background: linear-gradient(135deg, rgba(92,142,218,1) 0%, rgba(183,135,215,1) 30%, rgba(96,184,222,1) 48%, rgba(255,255,255,1) 66%, rgba(255,255,255,1) 100%);
-    //background-repeat: no-repeat;
     top: 0;
     left: 0;
     position: absolute;
@@ -27,7 +28,7 @@ header{
 }
 .header-container{
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding-top: 16px;
   display: flex;
   justify-content: space-between;
@@ -92,6 +93,9 @@ header{
     height: 30px;
     margin-right: 29px;
     margin-top: -5px;
+    &:hover{
+      opacity: .4;
+    }
 
   }
   .account{

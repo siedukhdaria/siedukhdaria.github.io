@@ -32,7 +32,6 @@ module.exports = {
         },
       ],
     }),
-
     // Generates an HTML file from a template
     // Generates deprecation warning: https://github.com/jantimon/html-webpack-plugin/issues/1501
     new HtmlWebpackPlugin({
