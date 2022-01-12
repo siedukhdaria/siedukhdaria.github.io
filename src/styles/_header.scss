@@ -69,13 +69,20 @@ header{
     }
     li{
       position: relative;
+      &:nth-child(2){
+        a {
+          padding-right: 10px;
+        }
+      }
 
       &:nth-child(2):after {
         content: "";
-        width: 100%;
-        height: calc(100% + 100px);
+        width: 11px;
+        text-align: center;
+        height: 8px;
         background-repeat: no-repeat;
-        top: 10px;
+        right: -5px;
+        top: 11px;
         position: absolute;
         display: inline-block;
         z-index: 0;

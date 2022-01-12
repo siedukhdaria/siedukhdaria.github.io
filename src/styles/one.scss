@@ -1,4 +1,5 @@
 .one{
+  padding-bottom: 150px;
   background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 39%, rgba(183,218,240,1) 57%, rgba(96,184,222,1) 69%, rgba(161,143,228,1) 87%, rgba(235,167,246,1) 100%);
   //background: linear-gradient(164deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,1) 39%, rgba(228,245,255,1) 63%, rgba(222,188,96,1) 74%, rgba(145,228,143,1) 87%, rgba(246,167,167,1) 100%);
   &:after {
@@ -9,7 +10,7 @@
     background-repeat: no-repeat;
     top: 310px;
     //left: 10px;
-    background-size: 95%;
+    background-size: 90%;
     background-position: center;
     position: absolute;
     z-index: 0;
@@ -50,7 +51,7 @@
   text-align: center;
   color: #fff;
   font-weight: 700;
-  p{
+  h1{
     font-size:72px;
   }
 }

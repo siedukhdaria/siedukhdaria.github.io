@@ -1,0 +1,64 @@
+
+
+  .smart-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../assets/images/smart/line.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+    .smart-text {
+      padding-left: 80px;
+      max-width: 400px;
+
+
+      .smart-title {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 45px;
+
+      }
+
+      .smart-subtitle {
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+          color: #4D4D4D;
+        }
+      }
+
+
+      .smart-link {
+        color: #6269FF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        position: relative;
+
+        &:after {
+          content: "";
+          width: 100%;
+          height: 30px;
+          background-repeat: no-repeat;
+          top: 3px;
+          right: -260px;
+          position: absolute;
+          display: inline-block;
+          z-index: 0;
+          background-image: url("../assets/images/three/arrow-purple.png");
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+
+
+
+

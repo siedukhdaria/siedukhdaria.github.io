@@ -34,10 +34,12 @@ position: relative;
   }
   .hero-title{
     font-weight: 700;
-    font-size: 64px;
     text-align: left;
     line-height: 66px;
     vertical-align: top;
+    h2{
+      font-size: 64px;
+    }
   }
   .hero-subtitle{
     color: #4D4D4D;
