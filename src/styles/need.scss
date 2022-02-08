@@ -1,0 +1,126 @@
+.need{
+  padding-top: 100px;
+  @media (max-width: 800px){
+    padding-top: 50px;
+  }
+  .need-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 700px){
+      flex-direction: column;
+    }
+    .need-text{
+      max-width: 400px;
+      padding-left: 80px;
+      @media (max-width: 870px){
+        padding-left: 30px;
+        max-width: 350px;
+        @media (max-width: 700px){
+          max-width: 600px;
+          padding-left: 0;
+          text-align: center;
+        }
+        .need-title{
+          @media (max-width: 800px){
+          font-size: 28px;
+            line-height: 32px;
+          }
+        }
+      }
+      .need-down{
+        font-weight: 600;
+
+      }
+      .need-link{
+        margin: 0 auto;
+        width: 300px;
+
+        &:after {
+          content: "";
+          width: 15px;
+          height: 15px;
+          background-repeat: no-repeat;
+          top: 4px;
+          right: 90px;
+          position: absolute;
+          display: inline-block;
+          z-index: 0;
+          background-image: url("../assets/images/three/arrow-purple.png");
+          cursor: pointer;
+          //@media (max-width: 870px){
+          //right: 214px;
+          //}
+          //@media (max-width: 575px){
+          //  right: 200px;
+          //}
+          //@media (max-width: 550px){
+          //  right: 190px;
+          //}
+          //@media (max-width: 525px){
+          //  right: 180px;
+          //}
+          //@media (max-width: 506px){
+          //  right: 170px;
+          //}
+          //@media (max-width: 486px){
+          //  right: 160px;
+          //}
+          //@media (max-width: 470px){
+          //  right: 150px;
+          //}
+          //@media (max-width: 446px){
+          //  right: 140px;
+          //}
+          //@media (max-width: 426px){
+          //  right: 130px;
+          //}
+          //@media (max-width: 412px){
+          //  right: 120px;
+          //}
+          //@media (max-width: 386px){
+          //  right: 110px;
+          //}
+          //@media (max-width: 366px){
+          //  right: 100px;
+          //}
+        }
+      }
+    }
+    .need-img{
+      width: 500px;
+      margin-right: 150px;
+      text-align: center;
+      @media (max-width: 1135px){
+        margin-right: 50px;
+      }
+      @media (max-width: 990px){
+        margin-right: 40px;
+        width: 450px;
+      }
+      @media (max-width: 870px){
+        margin-right: 0;
+        width: 370px;
+      }
+      @media (max-width: 400px){
+        width: 250px;
+      }
+      img{
+        @media (max-width: 990px){
+          width: 450px;
+        }
+        @media (max-width: 870px){
+          width: 370px;
+        }
+        @media (max-width: 700px){
+          width: 300px;
+        }
+        @media (max-width: 500px){
+          width: 200px;
+
+        }
+
+      }
+    }
+  }
+}

@@ -3,18 +3,30 @@
   justify-content: space-between;
   align-items: center;
   margin-top: -70px;
+  @media (max-width: 600px){
+    flex-direction: column;
+
+  }
 }
 .container-two{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+
   img{
     width: 150px;
     max-height: 170px;
     border-radius: 12px;
     margin-bottom: 8px;
     box-shadow: 10px 10px 22px -1px rgba(34, 60, 80, 0.2);
+    @media (max-width: 600px){
+      width: 100px;
+      margin-bottom: 0;
+
+
+    }
   }
   .text-two{
     text-align: center;
@@ -24,11 +36,22 @@
     vertical-align: top;
     margin-top: 30px;
     text-transform: uppercase;
+    @media (max-width: 600px){
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 0;
+
+    }
   }
   .text-two-subtitle{
     text-align: center;
     color: #4D4D4D;
     font-size: 14px;
     line-height: 19px;
+    @media (max-width: 600px){
+    font-size: 11px;
+      line-height: 15px;
+      margin-bottom: 30px;
+    }
   }
 }

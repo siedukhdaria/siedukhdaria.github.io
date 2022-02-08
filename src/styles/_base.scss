@@ -15,4 +15,62 @@ body{
   max-width: 1400px;
   padding: 0 15px 0 15px;
 }
+.title{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 45px;
+  padding-top: 25px;
+}
+.subtitle{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #4D4D4D;
+  padding-top: 25px;
+}
+.link{
+  color: #6269FF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  position: relative;
+}
+.btn{
+  border: 1px solid #6269FF;;
+  background: #6269FF;
+  border-radius: 103px;
+  width: 246px;
+  height: 48px;
+  padding: 16px 32px 16px 32px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  margin-top: 39px;
+  position: relative;
+  &:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    top: 16px;
+    right: 10px;
+    position: absolute;
+    display: inline-block;
+    z-index: 0;
+    background-image: url("../assets/images/base/arrow-right.png");
 
+  }
+  &:hover{
+    opacity: .7;
+  }
+}
+.line{
+  margin: auto;
+  width: 80%;
+  //border: 1px solid #4D4D4D;
+  background: #4D4D4D;
+  margin-top: 30px;
+}

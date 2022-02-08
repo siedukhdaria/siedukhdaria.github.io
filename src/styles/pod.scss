@@ -1,0 +1,118 @@
+.pod{
+  margin-top: 130px;
+  @media (max-width: 800px){
+    margin-top: 80px;
+  }
+  .pod-container{
+    display: flex;
+    justify-content: space-between;
+    .up-pod{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 105px;
+      @media (max-width: 510px){
+        flex-direction: column;
+        margin-left: 50px;
+        img{
+          @media (max-width: 510px){
+            width: 20px;
+          }
+        }
+      }
+      .pod-title{
+        margin-left: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #4D4D4D;
+        @media (max-width: 510px){
+          margin-left: 0;
+        }
+      }
+    }
+    .rotate {
+      position: relative;
+      left: -110px;
+      @media (max-width: 510px){
+        left: -43px;
+      }
+      .close {
+        width: 20px;
+        border: 1px solid #4D4D4D;
+        background: #4D4D4D;
+        transform: rotate(-45deg);
+        display: inline-block;
+        position: absolute;
+        bottom: 15px;
+        @media (max-width: 510px){
+          bottom: 25px;
+        }
+      }
+
+      .close-second {
+        width: 20px;
+        border: 1px solid #4D4D4D;
+        background: #4D4D4D;
+        transform: rotate(45deg);
+        display: inline-block;
+      }
+    }
+
+  }
+  .line{
+    margin: auto;
+    width: 80%;
+    border: 1px solid #DADADA;
+    background: #DADADA;
+    margin-top: 30px;
+    @media (max-width: 860px){
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  .pod-list{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    @media (max-width: 860px){
+      padding: 0;
+    }
+    .super-list{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 105px 0 105px;
+      @media (max-width: 860px){
+      flex-direction: column;
+      }
+      li{
+        border: 1px solid #DADADA;
+        border-radius: 100px;
+        padding: 9px 24px 9px 24px;
+        width: 255px;
+        height: 42px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+          &:hover{
+            background: #6269FF;
+          }
+        @media (max-width: 1150px){
+          padding: 5px 5px 5px 5px;
+          line-height: 26px;
+        }
+        @media (max-width: 920px){
+          padding: 2px;
+          line-height: 32px;
+        }
+        @media (max-width: 884px){
+          padding: 0;
+          line-height: 39px;
+        }
+
+      }
+    }
+  }
+
+
+
+}

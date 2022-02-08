@@ -41,3 +41,5 @@ videoBtn.addEventListener('click', function () {
         videoBtnIcon.src = 'assets/images/story/play-white.svg';
     }
 })
+
+

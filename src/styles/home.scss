@@ -1,0 +1,16 @@
+.home{
+  padding-top: 200px;
+  @media (max-width: 940px){
+    padding-top: 80px;
+  }
+  @media (max-width: 800px){
+    padding-top: 50px;
+  }
+  .home-container{
+    background-image: url("../assets/images/home/lineline.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+}
